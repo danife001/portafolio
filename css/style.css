@@ -1,0 +1,102 @@
+.bg-portafolio ul li a{
+    color: white;
+}
+
+
+
+.bg-portafolio ul li a:hover{
+    color: rgb(163, 165, 42);
+    background: red;
+}
+
+header{
+    background:  url(../img/fondo.jpg);
+        width: auto;
+     text-align: center;
+    
+}
+#foto .row{
+    text-align: center;
+}
+#foto .card-foto{
+    text-align: center;
+    box-shadow: 0 4px 10px -2px #99999999;
+    margin-bottom: 30px;
+}
+#foto .card-foto .perfil{
+    width: 200px;
+}
+#foto .card-foto .wp{
+    width: 30px;
+    }
+
+#foto .card-contactos p {
+    color: white;
+}
+#foto .card-foto h3 {
+    color: white;
+}
+#foto .card-sbm{
+    text-align: center;
+    box-shadow: 0 4px 10px -2px #99999999;
+    margin-bottom: 30px;
+}
+#foto .card-sbm p {
+    text-align: center;
+    color: white;
+}
+#foto .card-sbm h3 {
+    text-align: center;
+    color: white;
+}
+
+#xp .cl{
+    border-radius: 50px;
+    margin: 50px ;
+    margin-right: 200px;
+    background: #1363DF;
+    width: 400px;
+    
+    
+}
+
+#xp .cl .xp1{
+    width: 80px;
+    
+
+}
+#xp{
+    background: #06283D;
+    height: auto;
+}
+#xp .cl1{
+    border-radius: 50px;
+    margin: 50px ;
+    
+    background: #1363DF;
+    width: 400px;
+    
+    
+}
+
+#xp .cl1 .xp1{
+    width: 80px;
+    
+}
+#xp .cl3 .xp1{
+    width: 80px;
+    
+}
+#xp .cl3{
+    border-radius: 50px;
+    
+    background: #1363DF;
+    width: 400px;
+}
+#carro{
+    background: #1363DF;
+    width: 1366px;
+}
+footer{
+    background: black;
+}
