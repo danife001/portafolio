@@ -1,0 +1,153 @@
+.bg-portafolio ul li a{
+    color: white;
+}
+
+
+
+.bg-portafolio ul li a:hover{
+    color: #1363DF;
+    backdrop-filter: blur(10px);
+}
+
+header{
+    background:  url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+    
+}
+#foto .row{
+    text-align: center;
+}
+#foto .card-foto ,.card-sbm{
+    text-align: center;
+    box-shadow: 0 4px 10px -2px #99999999;
+    margin-bottom: 30px;
+}
+#foto .card-foto .perfil{
+    width: 200px;
+}
+#foto .card-foto .wp{
+    width: 30px;
+    }
+
+#foto .card-contactos p {
+    color: white;
+}
+#foto .card-foto h3 {
+    color: white;
+}
+#foto .card-sbm p , h3 {
+    text-align: center;
+    color: white;
+}
+
+
+#xp .cl{
+    border-radius: 50px;
+    margin: 50px ;
+    margin-right: 200px;
+     
+    
+}
+
+#xp img{
+    width: 80px;
+    
+}
+#xp{
+    padding: 80px 0;
+    cursor: pointer;
+}
+@media (min-width: 1000px){
+    #xp{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        cursor: pointer;
+        
+    }
+    .da{
+        
+        grid-column: 1 / 3;
+        grid-row: 2/3;
+       
+    }  
+}
+#xp .cl{
+    border-radius: 50px;
+    margin: 40px 150px;
+    max-width: auto;
+    min-width: 350px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.imagen-cl1,.imagen-cl2,.imagen-cl4,.imagen-cl5, .imagen-cl3{
+    transition: 1s;
+}
+.texto{
+    transition: 1s;
+    
+}
+.cambio .texto{
+    /* position: relative;
+    right: -80px; */
+    transform: translateX(80px);
+    /* font-size: large; */
+    transition: 1s;
+}
+.cambio .imagen-cl1{
+
+    transform: translateX(-200px);
+    transition: 1s;
+    font-size: 80px;
+}
+.cambio .imagen-cl2{
+
+    transform: translateX(-103px);
+    transition: 1s;
+}
+.cambio .imagen-cl4{
+
+    transform: translateX(-150px);
+    transition: 1s;
+}
+.cambio .imagen-cl5{
+
+    transform: translateX(-150px);
+    transition: 1s;
+}
+
+.cambio .imagen-cl3{
+
+    transform: translateX(-220px);
+    transition: 1s;
+}
+@media (min-width: 750px){
+    .cambio .imagen-cl3{
+
+        transform: translateX(-270px);
+        transition: 1s;
+    }
+      
+}
+
+
+.c-imagen{
+    width: 250px;
+    margin: 20px;
+}
+
+.azulClaro{
+    background-color: #1363DF;
+    color: black;
+}
+.azulOscuro{
+    background-color: #06283D;
+    color: white;
+}
